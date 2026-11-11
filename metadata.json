@@ -1,0 +1,6 @@
+{
+  "name": "강희 농장 - 익산 제철 농산물 당일배송 직거래 몰",
+  "description": "익산 농가가 오늘 아침 수확한 메론과 토마토를 그날 저녁 식탁까지 전하는 신선 직거래 몰",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

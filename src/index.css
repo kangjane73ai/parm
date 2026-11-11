@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-deep-green: #2F5D3A;
+    --color-fresh-green: #7BB661;
+    --color-tomato-red: #D8432E;
+    --color-melon-cream: #F6F1DE;
+    --color-offwhite: #FBFAF5;
+    --color-ink: #1F2A24;
+  }
+
+  body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    background-color: var(--color-offwhite);
+    color: var(--color-ink);
+    font-size: 18px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom design system utility mappings */
+.bg-offwhite { background-color: #FBFAF5; }
+.bg-melon-cream { background-color: #F6F1DE; }
+.bg-deep-green { background-color: #2F5D3A; }
+.bg-fresh-green { background-color: #7BB661; }
+.bg-tomato-red { background-color: #D8432E; }
+
+.text-ink { color: #1F2A24; }
+.text-deep-green { color: #2F5D3A; }
+.text-fresh-green { color: #7BB661; }
+.text-tomato-red { color: #D8432E; }
+
+.border-deep-green { border-color: #2F5D3A; }
+.border-fresh-green { border-color: #7BB661; }
+.border-melon-cream { border-color: #F6F1DE; }
+.border-ink-10 { border-color: rgba(31, 42, 36, 0.1); }
+.border-ink-20 { border-color: rgba(31, 42, 36, 0.2); }
